@@ -1,5 +1,5 @@
 
-# Task-1 JAVA BACKEND AND REST API EXAMPLE. 
+# TASK-1 JAVA BACKEND AND REST API EXAMPLE. 
 
 A **Java Spring Boot** application that provides REST APIs to manage and execute shell command tasks stored in **MongoDB**. Tasks can be created, executed, searched, and deleted programmatically.
 
@@ -109,7 +109,7 @@ spring.data.mongodb.uri=mongodb://localhost:27017/taskdb
 ### Create a Task
 
 ```bash
-curl -X POST http://localhost:8080/tasks \
+curl -X POST http://localhost:8080/ \
   -H "Content-Type: application/json" \
   -d '{
     "id": "task-1",
